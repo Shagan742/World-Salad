@@ -1,0 +1,15 @@
+.carousel-control-prev-icon {
+    background-color:black;
+}
+
+.carousel-control-next-icon {
+    background-color:black;
+}
+
+.carousel-control-prev {
+    left:-130px;
+}
+
+.carousel-control-next {
+    right:-130px;
+}
