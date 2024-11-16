@@ -1,3 +1,22 @@
+h1 {
+    padding-top:30px;
+    font-size:50px;
+}
+
+#story {
+    font-size:20px;
+}
+#story2 {
+    font-size:20px;
+}
+
+
+
+/*carousel things*/
+#carouselExample {
+    padding-top:40px;
+}
+
 .carousel-control-prev-icon {
     background-color:black;
 }
