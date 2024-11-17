@@ -1,3 +1,8 @@
+html {
+    overflow-x:hidden;
+}
+
+
 h1 {
     padding-top:30px;
     font-size:50px;
@@ -15,6 +20,9 @@ h1 {
 /*carousel things*/
 #carouselExample {
     padding-top:40px;
+    margin-bottom:40px;
+    position:relative;
+    z-index:0;
 }
 
 .carousel-control-prev-icon {
@@ -23,12 +31,4 @@ h1 {
 
 .carousel-control-next-icon {
     background-color:black;
-}
-
-.carousel-control-prev {
-    left:-130px;
-}
-
-.carousel-control-next {
-    right:-130px;
 }
