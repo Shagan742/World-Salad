@@ -32,3 +32,11 @@ h1 {
 .carousel-control-next-icon {
     background-color:black;
 }
+
+.carousel-control-prev {
+    margin-left:-70px;
+}
+
+.carousel-control-next {
+    margin-right: -70px;
+}
