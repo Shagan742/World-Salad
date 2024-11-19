@@ -3,12 +3,13 @@ let userAge=prompt('How old are you?');
 let userChosenName=prompt('Give a character name');
 let userChosenVerb=prompt('Give a verb PRESENT TENSE like runs');
 let userChosenLocation=prompt('Give a location, can be a country, state, anything');
-let userChosenGender=prompt('Give your character a gender (EX: her, his, their)');
+let userChosenGender=prompt('Give your character a gender (EX: her, his, their, its)');
+let userChosenGenderTwo=prompt('To match the chosen gender, give one again (EX: her, him, them, it)')
 let userChosenSecondCharacter=prompt('Name another character');
 let userChosenSecondCharacterAdjective=prompt('Give your second character an adjective/occupation or two');
 let userChosenThirdCharacter=prompt('Give me a third character\'s name');
 let userChosenThirdCharacterAdjective=prompt('Give me an adjective/occupation for the third character');
-let userChosenSchool=prompt('Give me a school please');
+let userChosenSchool=prompt('Give me a school please in the (Name of school) (Elementary/Middle/High) School format ');
 
 
 console.log(userName);
@@ -32,7 +33,7 @@ console.log(myStory2);
 let endingOfMyStory1=`After meeting ${userChosenSecondCharacter}, ${userChosenName} and ${userChosenSecondCharacter} get along very well and end up being the bestest of friends. Together, they embark on a journey in ${userChosenLocation} about looking for the biggest mountains to exist so they can chill. However, while chilling on one mountain, ${userChosenSecondCharacter} falls off. Due to their permanent promise of always sticking together, ${userChosenName} falls off too.`;
 console.log(endingOfMyStory1);
 
-let endingOfMyStory2=`idk`;
+let endingOfMyStory2=`Together, ${userChosenName} and ${userChosenSecondCharacter} go to ${userChosenSchool}. At school, they both eventually meet ${userChosenThirdCharacter}, a(n) ${userChosenThirdCharacterAdjective}. However, ${userChosenThirdCharacter} ended up being a gossip and only spread negative rumors about ${userChosenName} and ${userChosenSecondCharacter}. This horrendous act broke ${userChosenName}\'s trust completely, causing ${userChosenGenderTwo} to unfriend both ${userChosenSecondCharacter} and ${userChosenThirdCharacter}. After that, ${userChosenName} realized that the trustworthiest best friend one can have is themself. `;
 console.log(endingOfMyStory2);
 
 document.getElementById('story').innerHTML=myStory;

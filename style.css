@@ -15,7 +15,11 @@ h1 {
     font-size:20px;
 }
 
+/*card things*/
 
+.card-img-top {
+    height:200px;
+}
 
 /*carousel things*/
 #carouselExample {
