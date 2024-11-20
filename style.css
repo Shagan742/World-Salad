@@ -15,6 +15,10 @@ h1 {
     font-size:20px;
 }
 
+.stylepromptinput {
+    color:blue;
+}
+
 /*card things*/
 
 .card-img-top {
