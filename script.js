@@ -4,7 +4,8 @@ let userChosenName=prompt('Give a character name');
 let userChosenVerb=prompt('Give a verb PRESENT TENSE like runs');
 let userChosenLocation=prompt('Give a location, can be a country, state, anything');
 let userChosenGender=prompt('Give your character a gender (EX: her, his, their, its)');
-let userChosenGenderTwo=prompt('To match the chosen gender, give one again (EX: her, him, them, it)')
+let userChosenGenderTwo=prompt('To match the chosen gender, give one again (EX: her, him, them, it)');
+let userChosenGenderThree=prompt('Just one more... (EX: he, she, it, they)');
 let userChosenSecondCharacter=prompt('Name another character');
 let userChosenSecondCharacterAdjective=prompt('Give your second character an adjective/occupation or two');
 let userChosenThirdCharacter=prompt('Give me a third character\'s name');
@@ -18,6 +19,8 @@ console.log(userChosenName);
 console.log(userChosenVerb);
 console.log(userChosenLocation);
 console.log(userChosenGender);
+console.log(userChosenGenderTwo);
+console.log(userChosenGenderThree);
 console.log(userChosenSecondCharacter);
 console.log(userChosenSecondCharacterAdjective);
 console.log(userChosenThirdCharacter);
@@ -37,7 +40,7 @@ console.log(endingOfMyStory1);
 let endingOfMyStory2=`Together, ${userChosenName} and ${userChosenSecondCharacter} go to ${userChosenSchool}. At school, they both eventually meet ${userChosenThirdCharacter}, a(n) ${userChosenThirdCharacterAdjective}. However, ${userChosenThirdCharacter} ended up being a gossip and only spread negative rumors about ${userChosenName} and ${userChosenSecondCharacter}. This horrendous act broke ${userChosenName}\'s trust completely, causing ${userChosenGenderTwo} to unfriend both ${userChosenSecondCharacter} and ${userChosenThirdCharacter}. After that, ${userChosenName} realized that the trustworthiest best friend one can have is themself. `;
 console.log(endingOfMyStory2);
 
-let endingOfMyStory3=`${userChosenName} and ${userChosenSecondCharacter} get along very well, and end up creating some chemistry with each other. 3 months later, they get married and have ${userChosenAmountOfKids} kids. However, `;
+let endingOfMyStory3=`${userChosenName} and ${userChosenSecondCharacter} get along very well, and end up creating some chemistry with each other. 3 months later, they get married and have ${userChosenAmountOfKids} kids. ${userChosenName} even showers ${userChosenSecondCharacter} with tons of gifts every day. However, ${userChosenSecondCharacter} has an affair with ${userChosenThirdCharacter}, and ${userChosenName} finds it out. ${userChosenGenderThree} exposes the affair and leaves heartbroken. Next time, ${userChosenName} will never mate again.`;
 console.log(endingOfMyStory3);
 
 document.getElementById('story').innerHTML=myStory;
