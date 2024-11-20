@@ -11,7 +11,7 @@ let userChosenSecondCharacterAdjective=prompt('Give your second character an adj
 let userChosenThirdCharacter=prompt('Give me a third character\'s name');
 let userChosenThirdCharacterAdjective=prompt('Give me an adjective/occupation for the third character');
 let userChosenSchool=prompt('Give me a school please in the (Name of school) (Elementary/Middle/High) School format ');
-let userChosenAmountOfKids=prompt('Give me any number in the world');
+let userChosenAmount=prompt('Give me any number in the world');
 
 console.log(userName);
 console.log(userAge);
@@ -26,7 +26,7 @@ console.log(userChosenSecondCharacterAdjective);
 console.log(userChosenThirdCharacter);
 console.log(userChosenThirdCharacterAdjective);
 console.log(userChosenSchool);
-console.log(userChosenAmountOfKids);
+console.log(userChosenAmount);
 
 let myStory=`Hello, <span class="stylepromptinput">${userName}</span>! How are you doing today? How does it feel to be <span class="stylepromptinput">${userAge}</span> years old?`;
 console.log(myStory);
@@ -40,13 +40,15 @@ console.log(endingOfMyStory1);
 let endingOfMyStory2=`Together, <span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> go to <span class="stylepromptinput">${userChosenSchool}</span>. At school, they both eventually meet <span class="stylepromptinput">${userChosenThirdCharacter}</span>, a(n) <span class="stylepromptinput">${userChosenThirdCharacterAdjective}</span>. However, <span class="stylepromptinput">${userChosenThirdCharacter}</span> ended up being a gossip and only spread negative rumors about <span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span>. This horrendous act broke <span class="stylepromptinput">${userChosenName}</span>\'s trust completely, causing <span class="stylepromptinput">${userChosenGenderTwo}</span> to unfriend both <span class="stylepromptinput">${userChosenSecondCharacter}</span> and <span class="stylepromptinput">${userChosenThirdCharacter}</span>. After that, <span class="stylepromptinput">${userChosenName}</span> realized that the trustworthiest best friend one can have is themself. `;
 console.log(endingOfMyStory2);
 
-let endingOfMyStory3=`<span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> get along very well, and end up creating some chemistry with each other. 3 months later, they get married and have <span class="stylepromptinput">${userChosenAmountOfKids}</span> kids. <span class="stylepromptinput">${userChosenName}</span> even showers <span class="stylepromptinput">${userChosenSecondCharacter}</span> with tons of gifts every day. However, <span class="stylepromptinput">${userChosenSecondCharacter}</span> has an affair with <span class="stylepromptinput">${userChosenThirdCharacter}</span>, and <span class="stylepromptinput">${userChosenName}</span> finds it out. <span class="stylepromptinput">${userChosenGenderThree}</span> exposes the affair and leaves heartbroken. Next time, <span class="stylepromptinput">${userChosenName}</span> will never mate again.`;
+let endingOfMyStory3=`<span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> get along very well, and end up creating some chemistry with each other. 3 months later, they get married and have <span class="stylepromptinput">${userChosenAmount}</span> kids. <span class="stylepromptinput">${userChosenName}</span> even showers <span class="stylepromptinput">${userChosenSecondCharacter}</span> with tons of gifts every day. However, <span class="stylepromptinput">${userChosenSecondCharacter}</span> has an affair with <span class="stylepromptinput">${userChosenThirdCharacter}</span>, and <span class="stylepromptinput">${userChosenName}</span> finds it out. <span class="stylepromptinput">${userChosenGenderThree}</span> exposes the affair and leaves heartbroken. Next time, <span class="stylepromptinput">${userChosenName}</span> will never mate again.`;
 console.log(endingOfMyStory3);
+
+let endingOfMyStory4=`After meeting, <span class="stylepromptinput">${userChosenName}</span> asks <span class="stylepromptinput">${userChosenSecondCharacter}</span> for $<span class="stylepromptinput">${userChosenAmount}</span>. <span class="stylepromptinput">${userChosenSecondCharacter}</span> gives the money, thinking all is well. However, 3 hours later, <span class="stylepromptinput">${userChosenThirdCharacter}</span>, a(n) <span class="stylepromptinput">${userChosenThirdCharacterAdjective}</span>, warns <span class="stylepromptinput">${userChosenSecondCharacter}</span> about potentially being scammed. At first, <span class="stylepromptinput">${userChosenSecondCharacter}</span> does not listen, constantly giving <span class="stylepromptinput">${userChosenName}</span> money every time. Then, <span class="stylepromptinput">${userChosenName}</span> asks one day for DOUBLE the amount, and afterwards, <span class="stylepromptinput">${userChosenGenderThree}</span>`
 
 document.getElementById('story').innerHTML=myStory;
 document.getElementById('story2').innerHTML=myStory2;
 document.getElementById('endingofmyStory1').innerHTML=endingOfMyStory1;
 document.getElementById('endingofmyStory2').innerHTML=endingOfMyStory2;
 document.getElementById('endingofmyStory3').innerHTML=endingOfMyStory3;
-
+document.getElementById('endingofmyStory4').innerHTML=endingOfMyStory4;
 
