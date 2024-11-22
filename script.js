@@ -12,6 +12,7 @@ let userChosenThirdCharacter=prompt('Give me a third character\'s name');
 let userChosenThirdCharacterAdjective=prompt('Give me an adjective/occupation for the third character');
 let userChosenSchool=prompt('Give me a school please in the (Name of school) (Elementary/Middle/High) School format ');
 let userChosenAmount=prompt('Give me any number in the world');
+let userChosenOrganizationName=prompt('Name me an organization, can be abbreviated');
 
 console.log(userName);
 console.log(userAge);
@@ -27,6 +28,7 @@ console.log(userChosenThirdCharacter);
 console.log(userChosenThirdCharacterAdjective);
 console.log(userChosenSchool);
 console.log(userChosenAmount);
+console.log(userChosenOrganizationName);
 
 let myStory=`Hello, <span class="stylepromptinput">${userName}</span>! How are you doing today? How does it feel to be <span class="stylepromptinput">${userAge}</span> years old?`;
 console.log(myStory);
@@ -43,7 +45,14 @@ console.log(endingOfMyStory2);
 let endingOfMyStory3=`<span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> get along very well, and end up creating some chemistry with each other. 3 months later, they get married and have <span class="stylepromptinput">${userChosenAmount}</span> kids. <span class="stylepromptinput">${userChosenName}</span> even showers <span class="stylepromptinput">${userChosenSecondCharacter}</span> with tons of gifts every day. However, <span class="stylepromptinput">${userChosenSecondCharacter}</span> has an affair with <span class="stylepromptinput">${userChosenThirdCharacter}</span>, and <span class="stylepromptinput">${userChosenName}</span> finds it out. <span class="stylepromptinput">${userChosenGenderThree}</span> exposes the affair and leaves heartbroken. Next time, <span class="stylepromptinput">${userChosenName}</span> will never mate again.`;
 console.log(endingOfMyStory3);
 
-let endingOfMyStory4=`After meeting, <span class="stylepromptinput">${userChosenName}</span> asks <span class="stylepromptinput">${userChosenSecondCharacter}</span> for $<span class="stylepromptinput">${userChosenAmount}</span>. <span class="stylepromptinput">${userChosenSecondCharacter}</span> gives the money, thinking all is well. However, 3 hours later, <span class="stylepromptinput">${userChosenThirdCharacter}</span>, a(n) <span class="stylepromptinput">${userChosenThirdCharacterAdjective}</span>, warns <span class="stylepromptinput">${userChosenSecondCharacter}</span> about potentially being scammed. At first, <span class="stylepromptinput">${userChosenSecondCharacter}</span> does not listen, constantly giving <span class="stylepromptinput">${userChosenName}</span> money every time. Then, <span class="stylepromptinput">${userChosenName}</span> asks one day for DOUBLE the amount, and afterwards, <span class="stylepromptinput">${userChosenGenderThree}</span>`
+let endingOfMyStory4=`After meeting, <span class="stylepromptinput">${userChosenName}</span> asks <span class="stylepromptinput">${userChosenSecondCharacter}</span> for $<span class="stylepromptinput">${userChosenAmount}</span>. <span class="stylepromptinput">${userChosenSecondCharacter}</span> gives the money, thinking all is well. However, 3 hours later, <span class="stylepromptinput">${userChosenThirdCharacter}</span>, a(n) <span class="stylepromptinput">${userChosenThirdCharacterAdjective}</span>, warns <span class="stylepromptinput">${userChosenSecondCharacter}</span> about potentially being scammed. At first, <span class="stylepromptinput">${userChosenSecondCharacter}</span> does not listen, constantly giving <span class="stylepromptinput">${userChosenName}</span> money every time. Then, <span class="stylepromptinput">${userChosenName}</span> asks one day for DOUBLE the amount, and afterwards, <span class="stylepromptinput">${userChosenSecondCharacter}</span> realizes and immediately says NO.`
+console.log(endingOfMyStory4);
+
+let endingOfMyStory5=`Once <span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> finally finished introducing themselves to each other, <span class="stylepromptinput">${userChosenThirdCharacter}</span>, a(n) <span class="stylepromptinput">${userChosenThirdCharacterAdjective}</span>, asks <span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> to join a secret organization called <span class="stylepromptinput">${userChosenOrganizationName}</span>, where they steal peoples\'s front doors to collect just enough to start a door section in Home Depot. Hesitantly, <span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> agree and all 3 of them get started. 1 week later, over <span class="stylepromptinput">${userChosenAmount}</span> doors had been stolen. `;
+console.log(endingOfMyStory5);
+
+let endingOfMyStory6=`Upon <span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> meeting, <span class="stylepromptinput">${userChosenThirdCharacter}</span> jumps right into the conversation. <span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> feel annoyed with <span class="stylepromptinput">${userChosenThirdCharacter}</span>\'s presence, so they both try and distract <span class="stylepromptinput">${userChosenThirdCharacter}</span>. Once <span class="stylepromptinput">${userChosenThirdCharacter}</span> was distracted just enough, <span class="stylepromptinput">${userChosenName}</span> and <span class="stylepromptinput">${userChosenSecondCharacter}</span> slowly leave. Now, basically <span class="stylepromptinput">${userChosenThirdCharacter}</span> is yapping like a complete idiot to no one in the middle of nowhere. Out of boredom, <span class="stylepromptinput">${userChosenName}</span> plans to leave the haunted forest with <span class="stylepromptinput">${userChosenSecondCharacter}</span> after realizing they had completed their job of leaving their friend, <span class="stylepromptinput">${userChosenThirdCharacter}</span>, alone at this forest.`;
+console.log(endingOfMyStory6);
 
 document.getElementById('story').innerHTML=myStory;
 document.getElementById('story2').innerHTML=myStory2;
@@ -51,4 +60,6 @@ document.getElementById('endingofmyStory1').innerHTML=endingOfMyStory1;
 document.getElementById('endingofmyStory2').innerHTML=endingOfMyStory2;
 document.getElementById('endingofmyStory3').innerHTML=endingOfMyStory3;
 document.getElementById('endingofmyStory4').innerHTML=endingOfMyStory4;
+document.getElementById('endingofmyStory5').innerHTML=endingOfMyStory5;
+document.getElementById('endingofmyStory6').innerHTML=endingOfMyStory6;
 
