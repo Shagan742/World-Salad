@@ -25,6 +25,15 @@ h1 {
     height:200px;
 }
 
+.card-text {
+    height:260px;
+}
+
+.card-text6 {
+    overflow-y:scroll;
+    height:260px;
+}
+
 /*carousel things*/
 #carouselExample {
     padding-top:40px;
