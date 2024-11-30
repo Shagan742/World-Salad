@@ -2,27 +2,83 @@ html {
     overflow-x:hidden;
 }
 
+body {
+    background-image:url('imgs/goodenoughwallapaper.jpg');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-attachment:fixed;
+}
+
+/*title*/
 
 h1 {
     padding-top:30px;
-    font-size:50px;
+    font-size:70px;
+    font-family: "ivypresto-headline", serif;
+font-weight: 700;
+font-style: italic;
+letter-spacing: 2px;
+color:rgb(199, 21, 80);
 }
+
+
+/*button style*/
+#btn {
+    color:white;
+    padding-x:5px; 
+    background-color:rgb(199, 21, 80);
+    font-family: "ivypresto-headline", serif;
+font-weight: 200;
+font-style: italic;
+    border-radius:7px;
+    font-size:25px;
+    border-color:white;
+    border-width:4px;
+    border-style:double;
+}
+
+#btn:hover {
+    transform:scale(1.08);
+}
+
+/*text before card things*/
 
 #story {
     font-size:20px;
+    font-family: "enra-semi-variable", sans-serif;
+font-weight: 400;
 }
+
 #story2 {
     font-size:20px;
+    font-family: "enra-semi-variable", sans-serif;
+font-weight: 400;
 }
 
 .stylepromptinput {
-    color:blue;
+    color:maroon;
 }
 
 /*card things*/
 
 .card-img-top {
     height:200px;
+    border-bottom:3px double white;
+}
+
+.card {
+    border:3px double rgb(250, 149, 168);
+    background-image:linear-gradient(rgb(254, 86, 114),white,rgb(250, 163, 178));
+}
+
+.card:hover {
+    transform:scale(0.97);
+}
+
+.card-text, .card-text6 {
+    font-family: "enra-semi-variable", sans-serif;
+font-weight: 400;
+font-size:18px;
 }
 
 /*carousel things*/
@@ -34,11 +90,11 @@ h1 {
 }
 
 .carousel-control-prev-icon {
-    background-color:black;
+    background-color:rgb(250, 54, 132);
 }
 
 .carousel-control-next-icon {
-    background-color:black;
+    background-color:rgb(250, 54, 132);
 }
 
 .carousel-control-prev {
