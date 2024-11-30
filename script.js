@@ -1,3 +1,5 @@
+function clickSoButtonPrompts() {
+
 let userName=prompt('What is your name?');
 let userAge=prompt('How old are you?');
 let userChosenName=prompt('Give a character name');
@@ -29,6 +31,7 @@ console.log(userChosenThirdCharacterAdjective);
 console.log(userChosenSchool);
 console.log(userChosenAmount);
 console.log(userChosenOrganizationName);
+
 
 let myStory=`Hello, <span class="stylepromptinput">${userName}</span>! How are you doing today? How does it feel to be <span class="stylepromptinput">${userAge}</span> years old?`;
 console.log(myStory);
@@ -63,3 +66,5 @@ document.getElementById('endingofmyStory4').innerHTML=endingOfMyStory4;
 document.getElementById('endingofmyStory5').innerHTML=endingOfMyStory5;
 document.getElementById('endingofmyStory6').innerHTML=endingOfMyStory6;
 
+return;
+}
